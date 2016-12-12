@@ -52,11 +52,15 @@ img {border: none;}
     color: #44474c;
 }
 .bonus {
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
     color: #f16334;
 }
-.header-img {
+.bonus-text {
+    font-size: 14px;
+}
+.header-img p {
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -78,6 +82,7 @@ img {border: none;}
     margin-top: 100px;
     margin-bottom: -25px;
     text-transform: uppercase;
+    font-size: 14px;
     font-weight: bold;
 }
 #white h2 {
@@ -95,6 +100,9 @@ img {border: none;}
 #icons {
     margin-top: 50px;
     margin-bottom: 5px;
+}
+#icons p {
+    font-size: 14px;
 }
 .separator {
     margin-top: 10px;
@@ -142,21 +150,79 @@ img {border: none;}
 .to-right p {
     float: right;
 }
-
+#footer img {
+    padding-top: 5px;
+}
 
 /* @media */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 767px) {
+    .separator {
+        display: block;
+    }
 }
-@media only screen and  (min-width: 992px) and (max-width: 1199px) {
-
-}
-@media only screen and  (min-width: 768px) and (max-width: 991px) {
-
-}
-@media only screen and (max-width: 767px) {
-
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* Second section */
+    .separator {
+        display: none;
+    }
+    .last-icon {
+        margin-bottom: 80px;
+    }
+    #icons p img {
+        margin-top: 10px;
+    }
 }
 @media only screen and (max-width: 480px) {
-
+    /* First section */
+    #grey h1 {
+        font-size: 30px;
+    }
+    .bonus {
+        font-size: 14px;
+    }
+    .bonus-text {
+        font-size: 12px;
+    }
+    .btn {
+        width: 100%;
+    }
+    /* Second section */
+    .here {
+        font-size: 12px;
+    }
+    #white h2 {
+        font-size: 26px;
+    }
+    .line {
+        margin-left: 41%;
+        width: 50px;
+        height: 2px;
+    }
+    .last-icon {
+        margin-bottom: 80px;
+    }
+    #icons p img {
+        margin-top: 10px;
+    }
+    .separator {
+        display: none;
+    }
+    /* Third section */
+    #orange h3 {
+        font-size: 24px;
+    }
+    #orange .btn {
+        margin-bottom: 50px;
+    }
+    /* Footer */
+    .copy {
+        border: none;
+    }
+    .to-right p {
+        float: right;
+    }
+    #footer img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
