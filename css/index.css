@@ -118,6 +118,7 @@ img {border: none;}
 #orange h3 {
     color: #FFFFFF;
     font-size: 28px;
+    padding-top: 20px;
 }
 #orange .btn {
     margin-top: 20px;
@@ -140,18 +141,88 @@ img {border: none;}
     border-top: 1px solid #ff774a;
 }
 .copy {
+    padding-top: 10px;
+}
+.copy-line {
     border-left: 1px solid #ff774a;
 }
 #footer p {
-    padding-top: 10px;
     color: #FFFFFF;
     font-size: 11px;
 }
 .to-right p {
     float: right;
+    padding-top: 10px;
 }
 #footer img {
     padding-top: 5px;
+}
+/* Modal window */
+.modal-content {
+    background-color: #f8f8f8;
+}
+.modal-header {
+    padding: 0;
+}
+.modal-header .close {
+    margin-top: 0;
+}
+button.close {
+    opacity: 1;
+    font-weight: lighter;
+    background-color: #9cadb1;
+    padding: 7px 9px;
+    color: #FFFFFF;
+    -webkit-border-bottom-left-radius: 10px;
+       -moz-border-bottom-left-radius: 10px;
+         -o-border-bottom-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+    -webkit-border-top-right-radius: 5px;
+       -moz-border-top-right-radius: 5px;
+         -o-border-top-right-radius: 5px;
+            border-top-right-radius: 5px;   
+
+}
+.close:hover,
+.close:focus {
+    opacity: 1;
+    background-color: #9cadb1;
+}
+.progress {
+    width: 60%;
+    margin-left: 20%;
+    height: 30px;
+    background-color: #eaeff1;
+    border-radius: 40px;
+}
+.progress-bar-warning {
+    background-color: #f16334;
+}
+.percent p {
+    padding-top: 5px;
+}
+.form-control {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px
+}
+.first-form{
+    margin-top: 20px;
+}
+#reserve-window .btn {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: #f16334;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+         -o-border-radius: 40px;
+            border-radius: 40px;
 }
 
 /* @media */
@@ -215,7 +286,7 @@ img {border: none;}
         margin-bottom: 50px;
     }
     /* Footer */
-    .copy {
+    .copy-line {
         border: none;
     }
     .to-right p {
